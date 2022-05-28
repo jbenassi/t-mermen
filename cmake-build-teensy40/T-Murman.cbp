@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="T-Murman"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=50205"/>
+					<Add option="-D__IMXRT1062__"/>
+					<Add option="-DARDUINO_TEENSY40"/>
+					<Add option="-DUSB_SERIAL"/>
+					<Add option="-DARDUINO=10805"/>
+					<Add option="-DTEENSYDUINO=156"/>
+					<Add option="-DCORE_TEENSY"/>
+					<Add option="-DF_CPU=600000000"/>
+					<Add option="-DLAYOUT_US_ENGLISH"/>
+					<Add directory="/Users/jbenassi/CLionProjects/T-Murman/include"/>
+					<Add directory="/Users/jbenassi/CLionProjects/T-Murman/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/cores/teensy4"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ADC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/AccelStepper/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_STMPE610"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_VS1053"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_nRF8001"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_nRF8001/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/AltSoftSerial"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Artnet"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Audio"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Audio/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Bounce"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Bounce2/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/CapacitiveSensor"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/CryptoAccel/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/DS1307RTC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/DmxSimple"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/DogLcd"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/EEPROM"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/EasyTransfer"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/EasyTransferI2C"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Encoder"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Encoder/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Entropy"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Ethernet/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FNET/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FastCRC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FastLED/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexCAN"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexCAN_T4"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexIO_t4/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexiTimer2"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FreqCount"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FreqMeasure"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FreqMeasureMulti"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FrequencyTimer2"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ILI9341_t3"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ILI9488_t3/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/IRremote/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Keypad/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LedControl/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LedDisplay"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LiquidCrystal/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LiquidCrystalFast"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LittleFS/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LowPower"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/MFRC522/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/MIDI/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Metro"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/MsTimer2"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/NativeEthernet/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/OSC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/OctoWS2811"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/OneWire"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PS2Keyboard"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PS2Keyboard/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PWMServo"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Ping"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PulsePosition"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/QuadEncoder"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/RA8875"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/RadioHead"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ResponsiveAnalogRead/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SD/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SPI"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SPIFlash"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ST7735_t3"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SdFat/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SerialFlash"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Servo"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ShiftPWM"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Snooze/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SoftPWM"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SoftwareSerial"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TFT_ILI9163C"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Talkie"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TeensyThreads"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Time"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TimeAlarms"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TimerOne"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TimerThree"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TinyGPS"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Tlc5940"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TouchScreen"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/UTFT"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/VirtualWire"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/WS2812Serial"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Wire"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Wire/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/XBee"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/XPT2046_Touchscreen"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/i2c_t3"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ks0108"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ssd1351"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/x10"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/arm-none-eabi/include"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=50205"/>
+					<Add option="-D__IMXRT1062__"/>
+					<Add option="-DARDUINO_TEENSY40"/>
+					<Add option="-DUSB_SERIAL"/>
+					<Add option="-DARDUINO=10805"/>
+					<Add option="-DTEENSYDUINO=156"/>
+					<Add option="-DCORE_TEENSY"/>
+					<Add option="-DF_CPU=600000000"/>
+					<Add option="-DLAYOUT_US_ENGLISH"/>
+					<Add directory="/Users/jbenassi/CLionProjects/T-Murman/include"/>
+					<Add directory="/Users/jbenassi/CLionProjects/T-Murman/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/cores/teensy4"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ADC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/AccelStepper/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_STMPE610"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_VS1053"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_nRF8001"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Adafruit_nRF8001/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/AltSoftSerial"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Artnet"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Audio"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Audio/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Bounce"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Bounce2/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/CapacitiveSensor"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/CryptoAccel/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/DS1307RTC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/DmxSimple"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/DogLcd"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/EEPROM"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/EasyTransfer"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/EasyTransferI2C"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Encoder"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Encoder/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Entropy"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Ethernet/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FNET/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FastCRC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FastLED/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexCAN"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexCAN_T4"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexIO_t4/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FlexiTimer2"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FreqCount"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FreqMeasure"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FreqMeasureMulti"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/FrequencyTimer2"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ILI9341_t3"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ILI9488_t3/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/IRremote/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Keypad/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LedControl/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LedDisplay"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LiquidCrystal/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LiquidCrystalFast"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LittleFS/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/LowPower"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/MFRC522/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/MIDI/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Metro"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/MsTimer2"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/NativeEthernet/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/OSC"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/OctoWS2811"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/OneWire"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PS2Keyboard"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PS2Keyboard/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PWMServo"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Ping"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/PulsePosition"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/QuadEncoder"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/RA8875"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/RadioHead"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ResponsiveAnalogRead/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SD/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SPI"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SPIFlash"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ST7735_t3"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SdFat/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SerialFlash"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Servo"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ShiftPWM"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Snooze/src"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SoftPWM"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/SoftwareSerial"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TFT_ILI9163C"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Talkie"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TeensyThreads"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Time"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TimeAlarms"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TimerOne"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TimerThree"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TinyGPS"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Tlc5940"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/TouchScreen"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/USBHost_t36/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/UTFT"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/VirtualWire"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/WS2812Serial"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Wire"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/Wire/utility"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/XBee"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/XPT2046_Touchscreen"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/i2c_t3"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ks0108"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/ssd1351"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/framework-arduinoteensy/libraries/x10"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/toolchain-gccarmnoneeabi@1.50401.190816/arm-none-eabi/include"/>
+					<Add directory="/Users/jbenassi/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jbenassi/CLionProjects/T-Murman/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/jbenassi/CLionProjects/T-Murman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jbenassi/CLionProjects/T-Murman/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,5 @@
+/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/CMakeFiles/rebuild_cache.dir
+/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/CMakeFiles/edit_cache.dir
+/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/CMakeFiles/Debug.dir
+/Users/jbenassi/CLionProjects/T-Murman/cmake-build-teensy40/CMakeFiles/Production.dir
